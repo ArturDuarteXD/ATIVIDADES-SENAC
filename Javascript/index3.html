@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            padding: 40px;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>Botão 01</h1>
+    <button onclick="cliclou()">Clique aqui!</button>
+    <h1>Botão 02</h1>
+    <button onclick="responda()">Responda aqui!</button>
+    <script>
+    function cliclou() {
+    window.alert ('Você clicou')
+    }
+    function responda() {
+        let cor = window.prompt('Qual sua cor favorita?');
+        window.alert(`Sua cor favorita é ${cor}!`);
+    }
+
+    </script>
+</body>
+</html>
