@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade do sucessor e antecessor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Coloque um número de 1 a 10
+        <button onclick="iniciou()">Clique aqui</button>
+        <script>
+            let numero = window.prompt('Digite um número:');
+            let sucessor = Number(numero) + 1;
+            let antecessor = Number(numero) - 1;
+            window.alert(`O sucessor de ${numero} é ${sucessor} e o antecessor é ${antecessor}`);
+        </script>
+        
+    </h1>
+</body>
+</html>

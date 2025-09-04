@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Boas vindas </title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <h1>Titulo para a atividade</h1>
+    <button onclick= iniciou()>Clique aqui</button>
+<script>
+    function iniciou() {
+        let nome = window.prompt('Qual o seu nome?');
+        let idade = window.prompt(`Olá, ${nome}! Quantos anos você tem?`);
+        window.alert(`Que maravilha, ${nome} tem ${idade} anos`);}
+
+        let numero = window.prompt('Digite um número:');
+        let sucessor = numero + 1;
+        let antecessor = numero - 1;
+        window.alert(`O sucessor de ${numero} é ${sucessor} e o antecessor é ${antecessor}`);
+</script>
+</body>
+</html>
